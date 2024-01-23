@@ -1,0 +1,119 @@
+body{background-color: #24202F;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+@font-face {
+    font-family: 'HYWenHei 85W';
+    font-style: normal;
+    font-weight: normal;
+    src: url('zhcn.woff') format('woff');
+}
+
+h1{background: linear-gradient(to right, #F0C075, #F7CD8E, #FFE9BC, #CA9B5B, #FFF5E3, #F0C075, #CB9A5F, #F7CD8E, #F0C075);
+    background-clip: text;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 0px
+}
+
+h2{background: linear-gradient(to left, #F0C075, #F7CD8E, #FFE9BC, #CA9B5B, #FFF5E3, #F0C075, #CB9A5F, #F7CD8E, #F0C075);
+    background-clip: text;
+    -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size:26px;
+    padding-bottom: 12px;
+    margin-top: 5px;
+}
+
+.headers {background: #444A6A;
+        width: fit-content;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'HYWenHei 85W', lucida handwriting;
+}
+
+
+img{display: block;
+    width: 400px;
+    border: 6px double #F1BF77;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+}
+
+figcaption{color: #8F82C1;
+        text-align: center;
+        font-family: 'papyrus', garamond;
+}
+
+#description{text-align: center;
+            color: #8F82C1;
+            font-family: 'papyrus', garamond;
+            font-size: 20px;
+            margin-bottom: 30px;
+            margin-top: 30px;
+}
+
+hr.solid {
+    border: 2px solid #958FB3;
+}
+
+#button{display: block;
+    border: 3px solid #F1BF77;
+    border-radius: 6px;
+    width: fit-content;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {text-decoration: none;
+}
+
+button:hover{background-color: #4828B4;
+    color: #FBFFFE;
+    text-shadow: 0 0 2px #F2BAC4, 0 0 3px #F2BAC4, 0 0 6px #BD75A7, 0 0 8px #BD75A7;
+}
+
+button {background-color: inherit;
+    font-family: 'DM Serif Text', Georgia, Times New Roman, Times, serif;
+    color: #674FAB;
+    border: none;
+    padding:7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{margin-top: 10px;
+    margin-left: 0px;
+}
+
+h3{margin-bottom: 0px;
+    margin-left: 15px;
+    color: #5E5469;
+    font-family: 'Helvetica', Arial, Verdana, sans-serif;
+}
+
+ol{margin-top: 10px;
+    margin-left: -5px;
+}
+
+.lists{font-family: 'League Gothic', Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+        font-size: 25px;
+        color: #958FB3;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
